@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+ul {
+     list-style: none;
+}
+
+#tab {
+    border: 1px solid #dddddd;
+    width: 498px;
+    height: 120px;
+    overflow: hidden;
+}
+
+#tab-header {
+    height:38px;
+    line-height: 38px;
+    background-color: #f7f7f7;
+    text-align: center;
+    position: relative;
+}
+
+#tab-header ul {
+    width: 501px;
+    height: 38px;
+    /*⚠️通过子绝父相，让子控件相对于父控件左移1px，以便第一个li的左边框和tab的边框相同*/
+    position: absolute;
+    left: -1px;
+}
+
+#tab-header ul li {
+    /*display: inline-block;*/
+    line-height: 38px;
+    float: left;
+    width: 98px;
+    padding: 0 1px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#tab-header ul li.selected {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 0;
+    background-color: white;
+    padding: 0;
+}
+
+/*内容部分*/
+
+
+
+#tab-content .dom a {
+    width: 220px;
+    display: inline-block;
+    /*左浮动*/
+    float: left;
+    margin: 8px;
+
+}
+
+

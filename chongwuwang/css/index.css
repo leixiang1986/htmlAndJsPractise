@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../imgs/bd.png");
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#header {
+    background-color: red;
+    height: 5px;
+}
+
+#nav {
+    text-align: center;
+
+
+}
+
+
+#nav ul {
+    display: inline-block;
+
+}
+
+#nav ul li {
+    display: inline-block;
+
+}
+
+/*@font-face {*/
+    /*font-family: 'xxxx';*/
+    /*src: url('../fonts/xxxx.ttf');*/
+/*}*/
+
+
+#nav ul li a {
+    padding: 5px 8px;
+    display: inline-block;
+    width: 200px;
+    font-size: 35px;
+    line-height: 100%;
+}
+
+#nav ul li a.select, #nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+#list {
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+
+#list .love {
+
+    width: 382px;
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+}
+
+#list .love img {
+    width: 100%;
+
+}
+
+#list .love a {
+    background-color: orange;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#list .love a:hover {
+    background-color: black;
+
+}
+
+#list .love p {
+    margin: 7px 0;
+    text-indent: 30px;
+}
+
+
+#footer {
+    text-align: center;
+}
+
+#footer h2 {
+    color: white;
+    font-size: 35px;
+}
+
+#footer ul,#footer ul li {
+    display: inline-block;
+
+}
+
+#footer ul li img {
+    margin: 8px 5px;
+
+}
+
+/*实现动画的标签的css*/
+#footer ul li {
+    /*动画的效果 -线性 2秒*/
+    -webkit-transform: linear 0.25s;
+    -moz-transform: linear 0.25s;
+    -ms-transform: linear 0.25s;
+
+}
+
+/*实现动画的伪类*/
+#footer ul li:hover {
+    /*动画方向*/
+    /*transform-origin: center bottom;*/
+    /*动画方式*/
+    /*transform: scale(1.5);*/
+
+    /*确保webkit内核的能够用  用下面的属性*/
+    -webkit-transform: scale(1.5);
+    -webkit-transform-origin: center bottom;
+}
+
+
+@media screen and (max-width: 1100px){
+    #nav ul li a {
+        width: 120px;
+        font-size: 25px;
+        background-color: yellow;
+    }
+
+    #list{
+        margin-top: 30px;
+    }
+    #list .love img {
+        width: 335px;
+    }
+}
+

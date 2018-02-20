@@ -1,0 +1,146 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: black;
+
+}
+
+body {
+    background: url("../image/bg.jpg");
+    background-size: cover;
+}
+
+
+#header {
+    /*background-color: green;*/
+    text-align: right;
+    /*设置上下间距*/
+    /*margin: 15px 0;*/
+    background-color: rgba(0,0,0,0.2);
+    height: 45px;
+    line-height: 45px;
+}
+
+#header a {
+    /*加粗*/
+    font-weight: bolder;
+    font-family: sans-serif;
+    /*设置文字大小*/
+    font-size: 15px;
+    margin-right: 8px;
+    color: white;
+}
+
+#header a.no-weight {
+    font-weight: normal;
+}
+
+#header a.more-product {
+    background-color: #3387ff;
+    color: white;
+    /*去除下划线*/
+    text-decoration: none;
+    padding: 6px;
+
+}
+
+/*中间部分*/
+#content {
+
+
+
+}
+
+#content .top-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#content .top-content img {
+    width: 270px;
+    height: 120px;
+}
+
+#content .bottom-content {
+    background-color: yellow;
+    /*块级标签设置 设置居中-设置margin 0 auto，另外还是设置宽度高度*/
+    margin: 0 auto;
+
+    width:600px;
+    height: 38px;
+    margin-bottom: 30px;
+}
+
+#content .bottom-content input {
+    width: 500px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+#content .bottom-content a {
+    background-color: #3387ff;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 100%;
+    /*改变标签的类型*/
+    display: inline-block;
+    float: right;
+    text-align: center;
+    line-height: 38px;
+}
+
+#content .bottom-content input:focus {
+    outline: none;
+    border: 1px solid #3387ff;
+}
+
+.quick-search {
+    text-align: center;
+    margin-bottom: 10px;
+    /*设置外边距*/
+    margin: 0 5px;
+}
+
+.quick-search img:hover {
+    opacity: 0.5;
+}
+
+.quick-search img {
+    width: 101px;
+    height: 91px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.top-footer {
+    margin-bottom: 5px;
+
+
+}
+
+#footer a {
+    margin: 0 5px;
+    color: darkgray;
+}
+
+
+#footer img {
+    width: 15px;
+    height: 15px;
+}

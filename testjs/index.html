@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js基本语法</title>
+
+
+
+</head>
+<body>
+    <button onclick="alert('惦记了')">点我</button>
+    <button id="btn">点我打印</button>
+    <marquee onMouseOver="this.stop()" onMouseOut="this.start()">这是滚动内容</marquee>
+    
+    
+    <script type="text/javascript">
+        //1,页面加载完毕
+        window.onload = function () {
+            console.log('加载完毕');
+            //2,鼠标进入图片
+            img.onmouseover = function () {
+                console.log('进入图片');
+            };
+            //3,鼠标移动
+            img.onmousemove = function () {
+                console.log('移动');
+            };
+            //4,鼠标离开图片
+            img.onmouseout = function () {
+              console.log('图片离开');
+            };
+        };
+        //2,
+
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>

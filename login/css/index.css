@@ -1,0 +1,125 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+/*    background: url("../imgs/bg.jpg");*/
+/*    background-size: cover;*/
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: darkgray;
+}
+
+
+#panel {
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px;
+    
+}
+
+
+#panel-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#panel-header h2 {
+    font-size: 38px;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#panel-content {
+
+
+}
+
+.user-pwd {
+    /*background-color: red;*/
+    margin-bottom: 15px;
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+}
+
+.user-pwd img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 10px;
+}
+
+.user-pwd input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 56px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    font-size: 30px;
+}
+
+.user-pwd input:focus {
+    /*去掉外发光*/
+    outline: none;
+    /*边框颜色*/
+    border-color: orange;
+    /*设置四周阴影和颜色*/
+    box-shadow: 0 0 20px orange;
+}
+
+#setting {
+    margin-bottom: 15px;
+}
+
+.forget-pwd {
+    float: right;
+}
+
+#btn {
+    width: 100%;
+    height: 76px;
+    border: 0;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#btn :focus{
+    outline: none;
+}
+
+#reg {
+    text-align: center;
+    font-size: 26px;
+}
+
+#reg a {
+    color: orange;
+
+}
+
+#footer {
+    height: 38px;
+    line-height: 38px;
+}
+
+#footer img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 20 0;
+}
